@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "name": "Yaroslav Starenkyi",
+  "username": "FewAPM",
+  "email": "Yarik@gmail.com",
+  "address": {
+    "street": "Petrova",
+    "suite": "48",
+    "city": "Kyiv",
+    "zipcode": "07352"
+  },
+  "geo": {
+    "lat": "12345",
+    "lng": "5678910"
+  },
+  "phone": ")67242717",
+  "website": "website",
+  "company": {
+    "name": "Forbaykery",
+    "catchPhrase": "Devide and conquire",
+    "bs": "Trade"
+  }
+}

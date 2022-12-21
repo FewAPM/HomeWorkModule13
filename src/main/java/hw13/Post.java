@@ -1,0 +1,60 @@
+package hw13;
+
+public class Post{
+
+
+    int userId;
+    int id;
+    String title;
+    String body;
+
+    public int getUserId() {
+        return userId;
+    }
+
+    public void setUserId(int userId) {
+        this.userId = userId;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getBody() {
+        return body;
+    }
+
+    public void setBody(String body) {
+        this.body = body;
+    }
+
+
+
+    @Override
+    public String toString() {
+        return "Post{" +
+                "userId=" + userId +
+                ", id=" + id +
+                ", title='" + title + '\'' +
+                ", body='" + body + '\'' +
+                '}';
+    }
+
+
+    public int compare(Post o1, Post o2) {
+
+        return (o1.getId() < o2.getId()) ? -1 : ((o1.getId() == o2.getId()) ? 0 : 1);
+    }
+}
