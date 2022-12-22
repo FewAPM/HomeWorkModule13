@@ -1,12 +1,11 @@
 package hw13;
 
-public class Post{
+public class Post {
 
-
-    int userId;
-    int id;
-    String title;
-    String body;
+    private int userId;
+    private int id;
+    private String title;
+    private String body;
 
     public int getUserId() {
         return userId;
@@ -39,7 +38,6 @@ public class Post{
     public void setBody(String body) {
         this.body = body;
     }
-
 
 
     @Override

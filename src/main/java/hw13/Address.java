@@ -1,10 +1,10 @@
 package hw13;
 
 public class Address {
-    String street;
-    String suite;
-    String city;
-    String zipcode;
+    private String street;
+    private String suite;
+    private String city;
+    private String zipcode;
 
     public Address(String street, String suite, String city, String zipcode) {
         this.street = street;

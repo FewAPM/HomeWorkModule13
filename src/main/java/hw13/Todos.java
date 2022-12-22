@@ -1,10 +1,10 @@
 package hw13;
 
 public class Todos {
-    int userId;
-    int id;
-    String title;
-    boolean completed;
+    private int userId;
+    private int id;
+    private String title;
+    private boolean completed;
 
     public int getUserId() {
         return userId;

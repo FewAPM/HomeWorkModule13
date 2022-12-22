@@ -1,8 +1,8 @@
 package hw13;
 
 public class Geo {
-String lat;
-String lng;
+    private String lat;
+    private String lng;
 
     public Geo(String lat, String lng) {
         this.lat = lat;

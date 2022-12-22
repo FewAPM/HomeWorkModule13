@@ -1,9 +1,9 @@
 package hw13;
 
 public class Company {
-    String name;
-    String catchPhrase;
-    String bs;
+    private String name;
+    private String catchPhrase;
+    private String bs;
 
     public Company(String name, String catchPhrase, String bs) {
         this.name = name;

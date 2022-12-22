@@ -149,7 +149,7 @@ public class HW13 {
         Type typeToken = TypeToken.getParameterized(List.class, Todos.class).getType();
         List<Todos> usersFromGson = new Gson().fromJson(users, typeToken);
         for (Todos todos : usersFromGson) {
-            if (!todos.completed)
+            if (!todos.isCompleted())
                 System.out.println(todos.getTitle());
         }
     }

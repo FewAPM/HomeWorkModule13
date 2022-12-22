@@ -1,26 +1,26 @@
 package hw13;
 
 public class User {
-    int id;
+    private int id;
 
-    String name;
+    private String name;
 
-    String username;
+    private String username;
 
-    String email;
-    Address address;
+    private String email;
+    private Address address;
 
-    Geo geo;
+    private Geo geo;
 
     public Geo getGeo() {
         return geo;
     }
 
-    String phone;
+    private String phone;
 
-    String website;
+    private String website;
 
-    Company company;
+    private Company company;
 
     public String getUsername() {
         return username;
